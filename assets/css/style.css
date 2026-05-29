@@ -296,6 +296,9 @@ button {
     gap: 5px;
     width: 20px;
     margin: 13px;
+    appearance: none;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .nav-toggle span {
@@ -443,7 +446,11 @@ button {
     line-height: 1.05;
     color: var(--ink);
     margin-top: 24px;
-    letter-spacing: -2px
+    letter-spacing: -2px;
+    display:flex;
+    text-align: center;
+     text-align: center;
+    gap:6px
 }
 
 .hero-name em {
@@ -1543,6 +1550,10 @@ section {
         text-align: center;
         padding-top: 60px
     }
+    .hero-name{
+        margin-bottom:28px;
+                margin-left: 40px;
+    }
 
     .hero-text {
         order: 2
@@ -1600,7 +1611,7 @@ section {
         padding: 80px 0
     }
 
-        .aw-nav {
+    .aw-nav {
         background: var(--gold);
         color: var(--white);
         top: 39%;
@@ -1678,6 +1689,11 @@ section {
 
     .hero-name {
         font-size: 80px;
+        display:flex;
+        margin-bottom:10px;
+         text-align: center;
+         left:30%;
+        gap:6px;
     }
 
     .label-text {
@@ -1782,6 +1798,10 @@ section {
 @media(max-width:480px) {
     .hero-name {
         font-size: 80px;
+        display:flex;
+        gap: 6px;
+        margin-left:11%;
+        margin-bottom:28px;
     }
 
     .hero-text {
