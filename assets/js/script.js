@@ -76,7 +76,7 @@ window.addEventListener('DOMContentLoaded', () => {
   const labelText = document.querySelector('.label-text');
   const labelNum = document.querySelector('.label-num');
 
-  const labels = ['Visionary Leader', 'Developer', 'Tech Enthuast', 'Programmer'];
+  const labels = ['Visionary Leader', 'Developer', 'Tech Enthusiast', 'Programmer'];
   const nums = ['01', '02', '03', '04'];
 
   let currentSlide = 0;
