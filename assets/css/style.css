@@ -156,14 +156,13 @@ button {
     right: 32px;
     z-index: 800;
     width: 44px;
-    height: 44px;
-    background: var(--white);
+    height: 0px;
+   
     border-radius: 50%;
     box-shadow: var(--shadow-card);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--gold);
     opacity: 0;
     visibility: hidden;
     transform: translateY(12px);
@@ -183,8 +182,8 @@ button {
 }
 
 #scroll-top svg {
-    width: 18px;
-    height: 18px
+    width: 0px;
+    height: 0px
 }
 
 /* NAVBAR */
